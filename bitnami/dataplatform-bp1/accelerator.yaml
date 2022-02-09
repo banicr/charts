@@ -1,0 +1,16 @@
+accelerator:
+  displayName: dp
+  description: dp-bp1
+  iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
+  tags:
+    - yaml
+    - ytt
+  options:
+  - name: dp
+    label: dp
+    display: true
+    description: dataplatfornm-bp1
+    defaultValue: "dp"
+engine:
+  include:
+  - '**'
